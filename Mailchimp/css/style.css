@@ -1,0 +1,82 @@
+html, body, .main {
+  width: 100%;
+  height: 100%; }
+
+html, body {
+  font-family: "Graphik Web","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif; }
+
+.main {
+  display: flex; }
+
+.yellow-line {
+  background-color: yellow;
+  width: 10px; }
+
+a {
+  color: #0d7871; }
+  a:hover {
+    color: #0e4d48; }
+
+@media (max-width: 1024px) {
+  .main {
+    display: flex;
+    flex-direction: column; }
+  .yellow-line {
+    width: 100%;
+    height: 10px; } }
+
+.rigth-side {
+  width: 60%;
+  background-image: url(../../assets/image-mane.jpeg);
+  background-size: 1200px 900px; }
+
+@media (max-width: 1024px) {
+  .rigth-side {
+    width: 0; } }
+
+.left-side {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  justify-content: space-around; }
+
+@media (max-width: 1024px) {
+  .left-side {
+    width: 100%; } }
+
+.authorization, .save-login, .forgot {
+  margin: 10px; }
+
+.main-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; }
+
+.user {
+  font-size: 27px; }
+
+.password {
+  margin: 5px;
+  font-size: 27px; }
+
+.fields {
+  width: 80%;
+  padding: 20px; }
+
+.authorization {
+  font-size: 20px;
+  width: 88%;
+  color: white;
+  background-color: #0d7871;
+  padding: 10px; }
+  .authorization:hover {
+    background-color: #0e4d48; }
+
+.save-login {
+  text-align: center; }
+
+.forgot {
+  display: flex;
+  justify-content: space-around; }

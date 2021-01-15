@@ -1,0 +1,34 @@
+%permission {
+    width: 100%;
+    height: 100%;
+}
+
+html, body {
+    @extend %permission;
+    font-family:"Graphik Web","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+}
+.main {
+    @extend %permission;
+    display: flex;
+   
+}
+.yellow-line {
+    background-color: yellow;
+    width: 10px;
+}
+a {
+    color: #0d7871;&:hover{
+        color:#0e4d48
+    }
+}
+
+@media (max-width:1024px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .yellow-line{
+        width: 100%;
+        height: 10px;
+    }
+}

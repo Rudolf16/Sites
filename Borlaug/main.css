@@ -1,0 +1,67 @@
+html,body{
+    height: 100%;
+    
+}
+.main{
+    background-color: #bdb9bb3e;
+    padding: 10px;
+    margin:20px;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.header{
+    text-align: center;
+    
+    
+}
+.header h1{
+    font-size: 2.5rem;
+}
+
+.about{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.about ul{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+li{
+    padding:20px;
+}
+.image-div{
+    text-align: center;
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    justify-content: center;
+}
+.author{
+    padding:20px
+}
+.quote{
+ margin:10px
+}
+.bio-el{
+    padding:10px;
+}
+.employers{
+    object-fit: contain;
+    width: auto;
+    height: auto;
+}
